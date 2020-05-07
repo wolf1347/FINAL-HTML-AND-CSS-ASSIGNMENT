@@ -93,8 +93,8 @@ body.fade-out {
 
 #Back_Video {
     position: fixed;
-    right: 0vw;
-    bottom: 0vw;
+    right: 0;
+    bottom: -150px;
     min-width: 100%;
     min-height: 100%;
     top:0;
@@ -234,7 +234,7 @@ body.fade-out {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 30vw;
+    height: 550px;
     background-color: snow;
 }
 
@@ -242,7 +242,7 @@ body.fade-out {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 30vw;
+    height: 550px;
     background-color: cadetblue;
 }
 
