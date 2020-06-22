@@ -27,13 +27,14 @@
 
 
 <!--Navigation-->
-    <div class="Navbar">
-        <a class="active" href="#Home">Home</a>
-        <a href="#Slideshow">Slideshow</a>
-        <a href="#About">About</a>
-        <a href="#GitHub">GitHub</a>
-        <a onclick="openForm()">Contact</a> <!-- this has been changed to be a pop out form instead of a section-->
-    </div>
+<div class="Navbar">
+  <a class="active" href="#Home">Home</a>
+  <a href="#Slideshow">Slideshow</a>
+  <a href="#About">About</a>
+  <a href="#GitHub">GitHub</a>
+  <a href="#Resume">Resume</a>
+  <a onclick="openForm()">Contact</a> <!-- this has been changed to be a pop out form instead of a section-->
+</div>
 
  <div class="btn cancel" onclick="closeForm()">   
 <!--Home-->
@@ -151,7 +152,7 @@
     function plusSlides(n) {
         showSlides(slideIndex += n);
     }
-    function currentSlide(n) {
+    function currentSlide(n) {  
         showSlides(slideIndex =n);
     }
     function showSlides(n) {
@@ -173,7 +174,7 @@
 </script>
 
 <!--About-->
-    <div class="Row" id="About"">
+    <div class="Row" id="About">
         <div class="Column_2">
             <img src="Images/keyboardv2.jpg" alt="computer">
         </div>
@@ -184,6 +185,13 @@
                 I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer bootcamp. 
                 and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br>I am a 
                 full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+                <p id="Resume">
+                  You can also follow the below links to visit my LinkedIn Profile and my Resume on Google Docs.
+                </p>
+                <p>
+                  <a href="https://www.linkedin.com/in/amber-j-wolf/" target="_blank"><img src="Images/LinkedIn.png" alt="LinkedIn" width="100" height="100" style="float:left"></a>
+                  <a href="https://docs.google.com/document/d/1sBNWSLnGgWyzUZ8nhAV1EfMZCBPwjWHqzFY8Z60hrNE/edit?userstoinvite=chris.wells@wellsandassocs.com&ts=5ee2978d&actionButton=1#" target="_blank"><img src="Images/Resume.png" alt="Resume" width="100" height="100" style="float:left; margin-left: 50px;"></a>
                 </p>
         </div>
     </div>
@@ -245,10 +253,11 @@
         </p>
 
         <p>
-            <center><a href="https://pixabay.com/users/alanchevereau-12037755/" target="_blank" style="font-size: 1vw;">Credit to AlanChevereau for the background video</a></center>
-            <center><a href="https://www.pexels.com/@markusspiske" target="_blank" style="font-size: 1vw;">Credit to Markus Spiske for the "About" photo</a></center>
-            <center><a href="https://www.pexels.com/@tirachard-kumtanom-112571" target="_blank" style="font-size: 1vw;">Credit to  Tirachard Kumtanom for the "Contact" photo</a></center>
-            <center><a href="https://pixabay.com/users/engin_akyurt-3656355/" target="_blank" style="font-size: 1vw;">Credit to  Engin_Akyurt for the SlideShow Coffee photo</a></center>
+          <center><a href="https://pixabay.com/users/alanchevereau-12037755/" target="_blank" style="font-size: 1vw;">Credit to AlanChevereau for the background video</a></center>
+          <center><a href="https://www.pexels.com/@markusspiske" target="_blank" style="font-size: 1vw;">Credit to Markus Spiske for the "About" photo</a></center>
+          <center><a href="https://www.pexels.com/@tirachard-kumtanom-112571" target="_blank" style="font-size: 1vw;">Credit to  Tirachard Kumtanom for the "Contact" photo</a></center>
+          <center><a href="https://pixabay.com/users/engin_akyurt-3656355/" target="_blank" style="font-size: 1vw;">Credit to  Engin_Akyurt for the SlideShow Coffee photo</a></center>
+          <center><a href="https://pixabay.com/users/loveyouall-3307648/" target="_blank" style="font-size: 1vw;">Credit to  LoveYouAll for the document Icon</a></center> 
         </p>
 
     </footer>
